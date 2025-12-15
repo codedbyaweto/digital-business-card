@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #1A1B21;
+  color: #FFFF;
+}
+
+/* Header styling */
+.img-header {
+  width: 100%;
+  height: 500px;
+}
+
+.img-header > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  object-position: center;
+}
+
+/* MainContent Styling */
+section.my-bio {
+  text-align: center;
+
+}
+
+section.my-bio > h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0.1em;
+}
+
+section.my-bio > h2 {
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #F3BF99;
+  margin: 0.5em 0;
+}
+
+section.my-bio > p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5em;
+}
+
+section.button-section {
+  gap: 1em;
+  margin-bottom: 4em;
+}
+
+section.button-section > .button {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.5em 3em;
+  font-size: 1.3rem;
+  border-radius: 0.5em;
+  border: none;
+  cursor: pointer;
+}
+
+section.button-section > .primary {
+  background-color: #FFFF;
+  color: #161619;
+}
+
+section.button-section > .secondary {
+  background-color: #5093e2;
+  color: inherit;
+}
+
+section.about {
+  padding: 0 3em;
+}
+
+.about > h2 {
+  margin-bottom: 0.2em;
+}
+.about > p {
+  margin-top: 0.2em;
+  line-height: 1.6;
+}
+/* Footer styling */
+section.button-section,
+footer.digital-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer.digital-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161619;
+  gap: 1em;
+  padding: 2em;
+}
+
